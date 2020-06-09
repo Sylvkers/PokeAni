@@ -1,0 +1,16 @@
+header{
+    width: 100%;
+    height: 430px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/images/pokemonBG.png");
+}
+
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 200px;
+}

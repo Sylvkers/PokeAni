@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    color: #707070;
+    background-color: #e5ebec;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/pokemonBG.png");
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+}
+
+#load{
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin: auto;
+    display: none;
+}
+
+#errorMessages{
+    text-align: center;
+    color: red;
+}
+
+#pokeName, #pokeRecommend, #errorMessages{
+    font-weight: bold;
+}
+
+div {
+    align-content: center;
+}
+
+#content {
+    max-width: 700px;
+    background-color: #e3f4f3;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px;
+    margin: 0px auto 0px auto;
+    box-shadow: 16px 16px 28px rgba(0, 0, 0, 0.26);
+}
+
+#form {
+    text-align: center;
+    margin: 45px auto 45px auto;
+}
+
+#error, #wrong {
+    display: none;
+}

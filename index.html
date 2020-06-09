@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/functions.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+
+    <img id="load" src="images/load.gif" alt="loading">
+
+    <div id="form">
+        <h1>Fill in a Pokémon number or name!</h1>
+        <h4>Leave it empty for a random Pokémon</h4>
+        <input type="text" id="fname">
+        <button onclick="validate(document.getElementById('fname').value)">Click me</button>
+
+        <div id="errorMessages">
+            <p id="error">Error: Fill number between 1 and 806</p>
+            <p id="wrong">Pokemon not found! Did you type it right?</p>
+        </div>
+    </div>
+
+    <div id="content">
+        <div>
+            <p id="pokeName">#303 Mawile</p>
+            <p id="egg"><b>Egg group:</b> fairy, ground</p>
+            <img id="pokeImage" src="images/303.png" alt="pokeImage">
+            <p id="pokeFlavor">A cunning and terrifying Pokémon, its cuteness makes opponents let down their guard—and
+                then it swallows them whole with its huge jaws.</p>
+        </div>
+        <div>
+            <p id="pokeRecommend">Mawile recommend you to watch:</p>
+            <p id="animeName">Oh! My Goddess: The Adventures of Mini-Goddess</p>
+            <img id="animePicture" src="images/303.jpg" alt="animePicture">
+        </div>
+    </div>
+</body>
+
+</html>
